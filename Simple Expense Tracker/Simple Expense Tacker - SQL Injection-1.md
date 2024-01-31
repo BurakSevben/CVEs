@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
- Simple Expense Tracker App 1.0 allows SQL Injection via the 'category' parameter in "http://localhost/simple-expense-tracker-app/endpoint/delete_expense.php?expense=1". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
+ Simple Expense Tracker App 1.0 allows SQL Injection via the 'expense' parameter in "http://localhost/simple-expense-tracker-app/endpoint/delete_expense.php?expense=1". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
 + Go to this address: "http://localhost/simple-expense-tracker-app/"
