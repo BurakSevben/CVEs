@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
-Employee Managment System 1.0 allows Authentication Bypass via the `E-mail` and `Password` parameters at "http://localhost/370project/process/aprocess.php". 
+Employee Managment System 1.0 allows Authentication Bypass via the `E-mail` and `Password` parameters at "http://localhost/370project//alogin.html". 
 
 ## Proof of Concept:
 + Go to this address: "http://localhost/370project//alogin.html"
