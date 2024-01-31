@@ -9,6 +9,8 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
+Employee Managment System 1.0 allows SQL Injection via the 'id' parameter at "/370project//edit.php?id=111". 
+Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 
 ## Proof of Concept:
