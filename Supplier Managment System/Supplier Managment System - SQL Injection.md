@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
-Simple Admin Panel App 1.0 allows SQL Injection via the 'id' parameter at "/supplier/production/supplier_admin_edit.php?action=Edit&id=8". 
+Supplier Managment System 1.0 allows SQL Injection via the 'id' parameter at "/supplier/production/supplier_admin_edit.php?action=Edit&id=8". 
 Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
