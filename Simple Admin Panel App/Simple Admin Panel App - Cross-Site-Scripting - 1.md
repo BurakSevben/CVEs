@@ -5,7 +5,7 @@
 + *Vendor Homepage:* https://code-projects.org/simple-admin-panel-in-php-with-source-code/
 + *Software Link:* https://download.code-projects.org/details/e651c111-a5f1-45f6-ab1b-5fbf972339af
 + *Version:* 1.0
-+ *Tested on:* Windows 11 Home + PHP 8.2.12, Apache 2.4.58
++ *Tested on:* Kali Linux + PHP 8.2.12, Apache 2.4.58
 + *CVE:* Reported, waiting for CVE number
 
 ## Description:
