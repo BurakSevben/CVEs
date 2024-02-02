@@ -1,1 +1,2 @@
-# Online Medicine Ordering System Vulnarabilities
+# Supplier Managment System - SQL Injection
++ Proof of Concept(PoC) : 
