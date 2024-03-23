@@ -1,13 +1,13 @@
-# Product Rating System - Cross-Site-Scripting-1
-+ *Exploit Title:* Product Rating System - Cross-Site-Scripting - 1
+# CVE-2024-2553 -Product Rating System - Cross-Site-Scripting
++ *Exploit Title:* CVE-2024-2553 - Product Rating System - Cross-Site-Scripting
 + *Date:* 2024-15-03
 + *Exploit Author:* Burak Sevben
 + *Vendor Homepage:* https://www.sourcecodester.com/php/17238/product-reviewrating-system-using-php-and-mysql-source-code.html
 + *Software Link:* https://www.sourcecodester.com/download-code?nid=17238&title=Product+Review%2FRating+System+Using+PHP+and+MySQL+with+Source+Code
 + *Version:* 1.0
 + *Tested on:* Kali Linux + PHP 8.2.12, Apache 2.4.58
-+ *CVE:* Reported, waiting for CVE number
-
++ *CVE:* CVE-2024-2553
+  
 ## Description:
 Product Rating System is vulnerable to a cross-site scripting vulnerability because it fails to adequately sanitize user-supplied data. An attacker could exploit this issue to run arbitrary scripting code in an unsuspecting user's browser in the context of the affected site. This could allow an attacker to steal cookie-based authentication credentials and launch other attacks.
 
