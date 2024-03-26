@@ -1,12 +1,12 @@
-# To Do List App - SQL Injection
-+ **Exploit Title:**  To Do List App - SQL Injection
+#  CVE-2024-2934 - To Do List App - SQL Injection
++ **Exploit Title:**  CVE-2024-2934 - To Do List App - SQL Injection
 + **Date:** 2024-26-03
 + **Exploit Author:** Burak Sevben
 + **Vendor Homepage:** https://www.sourcecodester.com/php/17259/todo-list-kanban-board-using-php-and-mysql-source-code.html
 + **Software Link:** https://www.sourcecodester.com/download-code?nid=17259&title=Todo+List+in+Kanban+Board+Using+PHP+and+MySQL+with+Source+Code
 + **Version:** 1.0
 + **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
-+ **CVE:** Repoerted, waiting for CVE number
++ **CVE:** CVE-2024-2934
 
 ## Description:
 To Do List App 1.0 allows SQL Injection via the 'list' parameter in "/todo-list-in-kanban-board/endpoint/delete-todo.php?list=5". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
