@@ -9,10 +9,10 @@
 + **CVE:** Reported, waiting for CVE number
 
 ## Description:
-News Portal System  4.1 allows SQL Injection via the 'category' parameter in "http://localhost//newsportal/admin/edit-category.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
+News Portal System  4.1 allows SQL Injection via the 'category' parameter in "http://localhost/newsportal/admin/edit-category.php". Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
-+ Go to this address: "http://localhost//newsportal/admin/index.php"
++ Go to this address: "http://localhost/newsportal/admin/index.php"
 + Log in with `subadmin` :`Test@123`
 + Click manage category then click edit button.
 + Capture the request via Burp Suite and send it to the Repeater.
