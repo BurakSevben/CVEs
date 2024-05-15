@@ -1,6 +1,6 @@
 # Interactive Map App - Cross-Site-Scripting
 + *Exploit Title:* Interactive Map App - Cross-Site-Scripting
-+ *Date:* 2024-02-02
++ *Date:* 2024-10-05
 + *Exploit Author:* Burak Sevben
 + *Vendor Homepage:* https://www.sourcecodester.com/php/17354/interactive-map-markers-using-php-and-mysql-source-code.html
 + *Software Link:* https://www.sourcecodester.com/download-code?nid=17354&title=Interactive+Map+with+Marker+Using+PHP+and+MySQL+with+Source+Code
