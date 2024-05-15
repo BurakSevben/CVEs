@@ -1,2 +1,0 @@
-## Budget Managment App Vulnerabilities
-
