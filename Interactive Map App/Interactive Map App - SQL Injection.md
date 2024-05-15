@@ -14,7 +14,7 @@ Exploiting this issue could allow an attacker to compromise the application, acc
 
 ## Proof of Concept:
 + Go to this address: "http://localhost/daily-expenses-monitoring-app/"
-+ Click the delete any action
++ Click the delete button in marked locations
 + Capture the request via Burp Suite and send it to the Repeater.
 + Copy the request and paste it into an "r.txt" file.
 + Captured Burp request:
