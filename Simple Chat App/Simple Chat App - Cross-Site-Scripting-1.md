@@ -14,7 +14,7 @@ Simple Chat App 1.0 allows Cross-Site-Scripting(XSS) via the 'name' parameter at
 ## Proof of Concept:
 + Go to http://localhost/chat_project/register.php
 + Fill out the form and register.
-+ In the 'Name' section, write this code: `"><img src=x onerror=alert(1923)>`
++ In the 'Name' section, write this code: `test"><img src=x onerror=alert(1923)>`
 + Then press the 'Sign Up' button.
 + XSS will be triggered.
 
