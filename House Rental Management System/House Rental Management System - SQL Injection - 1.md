@@ -3,7 +3,7 @@
 + **Date:** 2024-15-05
 + **Exploit Author:** Burak Sevben
 + **Vendor Homepage:** https://www.sourcecodester.com/php/17375/best-courier-management-system-project-php.html
-+ **Software Link:** https://download.code-projects.org/details/74c24d93-431e-4e31-acc1-802f14caef5c
++ **Software Link:** https://www.sourcecodester.com/download-code?nid=17375&title=Best+house+rental+management+system+project+in+php+
 + **Version:** Latest
 + **Tested on:** Kali Linux + PHP 8.2.12, Apache 2.4.58
 + **CVE:** Reported, waiting for CVE number.
