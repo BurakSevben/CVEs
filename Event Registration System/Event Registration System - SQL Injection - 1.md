@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
-Online Course Registration System allows SQL Injection via the 'username' & 'password' parameters at "http://localhost/event/portal.php" or "http://localhost/event/admin/login.php"
+Event Registration System allows SQL Injection via the 'username' & 'password' parameters at "http://localhost/event/portal.php" or "http://localhost/event/admin/login.php"
 Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
