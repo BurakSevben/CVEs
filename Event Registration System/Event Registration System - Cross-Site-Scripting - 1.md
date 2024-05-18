@@ -14,7 +14,7 @@ Event Registration System is vulnerable to a cross-site scripting vulnerability 
 
 ## Proof of Concept:
 + Go to http://localhost/event/registrar/
-+ Write a xss code in searchbar
++ Write a xss code in searchbar `'"><img src=x onerror=alert(1)>`
 + XSS will be triggered.
 
 ![Ekran görüntüsü 2024-05-18 234638](https://github.com/BurakSevben/CVEs/assets/117217689/cd64093f-34fa-4810-bded-7e13ff253917)
