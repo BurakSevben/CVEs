@@ -1,6 +1,6 @@
 # Event Registration System - SQL Injection - 2
 + **Exploit Title:** Event Registration System - SQL Injection - 2
-+ **Date:** 2024-14-07
++ **Date:** 2024-17-04
 + **Exploit Author:** Burak Sevben
 + **Vendor Homepage:** https://www.sourcecodester.com/php/14884/event-registration-system-qr-code-php-free-source-code.html
 + **Software Link:** https://www.sourcecodester.com/download-code?nid=14884&title=Event+Registration+System+with+QR+Code+in+PHP+Free+Source+Code
