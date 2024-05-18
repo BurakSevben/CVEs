@@ -9,7 +9,7 @@
 + **CVE:** Reported, waiting for CVE number.
 
 ## Description:
-Event Registration System allows SQL Injection via the 'e' parameter at "event/registrar/?page=registration&e=c4ca4238a0b923820dcc509a6f75849b". 
+Event Registration System allows SQL Injection via the 'e' parameter at "http://localhost/event/registrar/?page=registration&e=c4ca4238a0b923820dcc509a6f75849b". 
 Exploiting this issue could allow an attacker to compromise the application, access or modify data, or exploit the latest vulnerabilities in the underlying database.
 
 ## Proof of Concept:
